@@ -29,6 +29,9 @@ benchmark_tmp/
 *.pdf
 ~$*
 
+# Keep the final mathematical modeling report.
+!docs/Distorsiyon_Modelleme_Raporu.pdf
+
 # OS / editor
 .DS_Store
 Thumbs.db
