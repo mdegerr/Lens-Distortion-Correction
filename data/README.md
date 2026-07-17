@@ -1,17 +1,17 @@
 # Data Directory
 
-Bu klasör örnek çalışma sırasında ham görüntüleri yerel olarak koymak için ayrılmıştır.
+This directory is reserved for image data used during local experiments.
 
-Tam ham TIFF görüntüler GitHub deposuna eklenmemelidir. Bu repoda yalnızca küçük bir örnek alt küme tutulur:
+The full raw TIFF datasets are intentionally not included in this repository. Only a small public sample subset is tracked:
 
 ```text
 data/sample/
-  2x/   # 2X v2 setinden 5 örnek görüntü
-  3x/   # 3X v2 setinden 5 örnek görüntü
-  5x/   # 5X v2 setinden 5 örnek görüntü
+  2x/   # 5 sample images from the 2X v2 dataset
+  3x/   # 5 sample images from the 3X v2 dataset
+  5x/   # 5 sample images from the 5X v2 dataset
 ```
 
-Tam veri setiyle çalışmak için önerilen yerel yapı:
+For full local analysis, use the following recommended structure:
 
 ```text
 data/
@@ -23,4 +23,4 @@ data/
     5X Lens v2_*.tiff
 ```
 
-Tam veri seti görüntüleri `.gitignore` tarafından dışarıda bırakılır.
+The complete TIFF datasets are ignored by `.gitignore` to avoid storing large raw image collections in Git.
