@@ -14,6 +14,12 @@ The full TIFF datasets are not included in this repository in order to keep the 
 - Compare residual error before and after correction.
 - Provide reproducible scripts and compact result files for review and further development.
 
+## Lab Test Environment
+
+The experimental setup was tested in a laboratory environment using microscope optics and a dot-grid calibration target.
+
+![Laboratory test environment](docs/lab_test_environment.jpeg)
+
 ## Mathematical Model
 
 Pixel coordinates are first normalized with respect to the image center:
@@ -54,6 +60,7 @@ lens-distortion-correction/
   docs/
     Distorsiyon_Modelleme_Raporu.md
     Distorsiyon_Modelleme_Raporu.pdf
+    lab_test_environment.jpeg
   results/
     2x/
       summary.json

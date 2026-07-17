@@ -29,8 +29,9 @@ benchmark_tmp/
 *.pdf
 ~$*
 
-# Keep the final mathematical modeling report.
+# Keep selected documentation assets.
 !docs/Distorsiyon_Modelleme_Raporu.pdf
+!docs/lab_test_environment.jpeg
 
 # OS / editor
 .DS_Store
