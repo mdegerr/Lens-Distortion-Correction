@@ -1,0 +1,22 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "opencv_version": "4.11.0",
+  "opencv_threads": 1,
+  "image_path": "Mitutoyo CF3X Lens\\3x Lens v2_1.tiff",
+  "image_shape": [
+    2048,
+    2048
+  ],
+  "image_dtype": "uint16",
+  "pixels": 4194304,
+  "iterations": 25,
+  "map_build_once_s": 2.8511323999846354,
+  "read_one_s": 0.02567780000390485,
+  "remap_only_median_s": 0.08541639999020845,
+  "remap_only_mean_s": 0.09057845199713484,
+  "remap_only_p95_s": 0.11287220002850518,
+  "write_one_s": 0.2560537999961525,
+  "end_to_end_cached_map_median_s": 0.3671479999902658,
+  "ns_per_pixel_remap": 20.364856717636215
+}

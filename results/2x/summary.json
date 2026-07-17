@@ -1,0 +1,58 @@
+{
+  "input": "Mitutoyo CF2X Lens",
+  "glob": "2x Lens v2_*.tiff",
+  "images_total": 100,
+  "images_used": 100,
+  "grid_rows": 46,
+  "grid_cols": 46,
+  "grid_points": 2116,
+  "grid_pitch_mm": 0.125,
+  "image_width_px": 2048,
+  "image_height_px": 2048,
+  "median_pitch_px": 44.82666015625,
+  "micrometers_per_pixel": 2.7885191438374815,
+  "homography_rmse_median_px": 0.4068718162408845,
+  "distortion_residual_mean_px": 0.2584560075722486,
+  "distortion_residual_p95_px": 0.7812357093337854,
+  "distortion_residual_max_px": 1.9090568610289307,
+  "distortion_residual_mean_um": 0.7207095249550204,
+  "distortion_residual_p95_um": 2.178490731326715,
+  "distortion_residual_max_um": 5.323441603653464,
+  "repeatability_rms_px": 0.07133170904972738,
+  "repeatability_p95_px": 0.19039113325807994,
+  "repeatability_max_px": 0.44014041058828884,
+  "notes": [
+    "Residual, ideal planar gridin homografi ile aciklanamayan kismidir.",
+    "Tek pozlu sabit hedefte bu alan distortion + hedef/kurulum kusurlari + tespit gurultusunu icerir."
+  ],
+  "opencv_model": {
+    "opencv_rms_px": 0.4034773277578288,
+    "opencv_reprojection_mean_px": 0.4034556233882904,
+    "opencv_reprojection_median_px": 0.40405672788619995,
+    "opencv_reprojection_max_px": 0.4141789674758911,
+    "camera_matrix": [
+      [
+        157018.7702825697,
+        0.0,
+        1022.9594630230999
+      ],
+      [
+        0.0,
+        157312.65929039818,
+        1024.224937005898
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion_coefficients": [
+      1.8294354360344685,
+      -0.002812656800859667,
+      0.005212361694873912,
+      0.0034910515635653257,
+      -3.010787044197036e-07
+    ]
+  }
+}

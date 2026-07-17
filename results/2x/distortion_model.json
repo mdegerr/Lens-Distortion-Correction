@@ -1,0 +1,214 @@
+{
+  "model_type": "2d_polynomial_displacement",
+  "degree": 5,
+  "image_width_px": 2048,
+  "image_height_px": 2048,
+  "cx_px": 1023.5,
+  "cy_px": 1023.5,
+  "normalization_scale_px": 1024.0,
+  "terms": [
+    {
+      "x_power": 0,
+      "y_power": 0
+    },
+    {
+      "x_power": 0,
+      "y_power": 1
+    },
+    {
+      "x_power": 1,
+      "y_power": 0
+    },
+    {
+      "x_power": 0,
+      "y_power": 2
+    },
+    {
+      "x_power": 1,
+      "y_power": 1
+    },
+    {
+      "x_power": 2,
+      "y_power": 0
+    },
+    {
+      "x_power": 0,
+      "y_power": 3
+    },
+    {
+      "x_power": 1,
+      "y_power": 2
+    },
+    {
+      "x_power": 2,
+      "y_power": 1
+    },
+    {
+      "x_power": 3,
+      "y_power": 0
+    },
+    {
+      "x_power": 0,
+      "y_power": 4
+    },
+    {
+      "x_power": 1,
+      "y_power": 3
+    },
+    {
+      "x_power": 2,
+      "y_power": 2
+    },
+    {
+      "x_power": 3,
+      "y_power": 1
+    },
+    {
+      "x_power": 4,
+      "y_power": 0
+    },
+    {
+      "x_power": 0,
+      "y_power": 5
+    },
+    {
+      "x_power": 1,
+      "y_power": 4
+    },
+    {
+      "x_power": 2,
+      "y_power": 3
+    },
+    {
+      "x_power": 3,
+      "y_power": 2
+    },
+    {
+      "x_power": 4,
+      "y_power": 1
+    },
+    {
+      "x_power": 5,
+      "y_power": 0
+    }
+  ],
+  "coeff_dx_px": [
+    -0.009807333830582595,
+    0.018220746879870513,
+    -0.4759435663210403,
+    0.10183702560127125,
+    -0.022051227471698315,
+    -0.5161931137812822,
+    0.010302678620396764,
+    0.4289952113834294,
+    -0.04607257308972205,
+    2.2249949109849068,
+    0.0027224689487215245,
+    0.03129979072249088,
+    0.08452757816116975,
+    0.031383339441652454,
+    0.6745711649754439,
+    -0.011178440569742713,
+    0.10579332515462564,
+    -0.05362433993877116,
+    0.04849514541608212,
+    0.02051580881290022,
+    -2.4002779010659783
+  ],
+  "coeff_dy_px": [
+    -0.22916804591435416,
+    -0.6686613383202893,
+    0.023202414490058765,
+    1.2493586138016008,
+    -0.13032095076516456,
+    0.3540116192866285,
+    3.410724970164872,
+    -0.006014477825848411,
+    0.4527460808016561,
+    -0.019976215402484374,
+    -1.3914881244920285,
+    0.16978901052670142,
+    -0.17094590206095725,
+    -0.07003822757221935,
+    -0.03080319963857965,
+    -3.559188849324221,
+    -0.03995589830380145,
+    -0.0935636102616591,
+    0.04358082392619041,
+    0.08614597362114516,
+    -0.015298584942446885
+  ],
+  "fit_metrics": {
+    "points": 2116,
+    "rmse_px": 0.2717869378883921,
+    "mean_abs_px": 0.20496071986121953,
+    "p95_abs_px": 0.6281072120497624,
+    "max_abs_px": 1.205325556407698,
+    "dx_rmse_px": 0.15161949282172502,
+    "dy_rmse_px": 0.2255652211739025
+  },
+  "equation": {
+    "coordinate_normalization": "X=(x-cx_px)/normalization_scale_px, Y=(y-cy_px)/normalization_scale_px",
+    "dx": "sum(coeff_dx_px[k] * X^terms[k].x_power * Y^terms[k].y_power)",
+    "dy": "sum(coeff_dy_px[k] * X^terms[k].x_power * Y^terms[k].y_power)",
+    "remap": "corrected(x,y) = distorted(x + dx(x,y), y + dy(x,y))"
+  },
+  "source_summary": {
+    "input": "Mitutoyo CF2X Lens",
+    "glob": "2x Lens v2_*.tiff",
+    "images_total": 100,
+    "images_used": 100,
+    "grid_rows": 46,
+    "grid_cols": 46,
+    "grid_points": 2116,
+    "grid_pitch_mm": 0.125,
+    "image_width_px": 2048,
+    "image_height_px": 2048,
+    "median_pitch_px": 44.82666015625,
+    "micrometers_per_pixel": 2.7885191438374815,
+    "homography_rmse_median_px": 0.4068718162408845,
+    "distortion_residual_mean_px": 0.2584560075722486,
+    "distortion_residual_p95_px": 0.7812357093337854,
+    "distortion_residual_max_px": 1.9090568610289307,
+    "distortion_residual_mean_um": 0.7207095249550204,
+    "distortion_residual_p95_um": 2.178490731326715,
+    "distortion_residual_max_um": 5.323441603653464,
+    "repeatability_rms_px": 0.07133170904972738,
+    "repeatability_p95_px": 0.19039113325807994,
+    "repeatability_max_px": 0.44014041058828884,
+    "notes": [
+      "Residual, ideal planar gridin homografi ile aciklanamayan kismidir.",
+      "Tek pozlu sabit hedefte bu alan distortion + hedef/kurulum kusurlari + tespit gurultusunu icerir."
+    ],
+    "opencv_model": {
+      "opencv_rms_px": 0.4034773277578288,
+      "opencv_reprojection_mean_px": 0.4034556233882904,
+      "opencv_reprojection_median_px": 0.40405672788619995,
+      "opencv_reprojection_max_px": 0.4141789674758911,
+      "camera_matrix": [
+        [
+          157018.7702825697,
+          0.0,
+          1022.9594630230999
+        ],
+        [
+          0.0,
+          157312.65929039818,
+          1024.224937005898
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion_coefficients": [
+        1.8294354360344685,
+        -0.002812656800859667,
+        0.005212361694873912,
+        0.0034910515635653257,
+        -3.010787044197036e-07
+      ]
+    }
+  }
+}

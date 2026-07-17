@@ -1,0 +1,176 @@
+{
+  "2X": {
+    "distortion_type_interpretation": "karisik / mustache benzeri",
+    "mean_radial_px": -0.00783784867676871,
+    "median_radial_px": 0.015769166688069634,
+    "p95_abs_radial_px": 0.6518545736947751,
+    "mean_abs_tangential_px": 0.14162779942214976,
+    "p95_abs_tangential_px": 0.3910945629999478,
+    "tangential_to_total_mean_ratio": 0.5479764264429381,
+    "radial_positive_fraction": 0.5359168241965974,
+    "radial_negative_fraction": 0.46408317580340264,
+    "radial_bin_stats": [
+      {
+        "bin": 1,
+        "r_min_px": 23.89528092447294,
+        "r_max_px": 520.1025008212553,
+        "mean_radial_px": -0.0339016237489948,
+        "median_radial_px": -0.026515843186869975,
+        "mean_abs_tangential_px": 0.10366401683451677,
+        "points": 423
+      },
+      {
+        "bin": 2,
+        "r_min_px": 520.2123177820562,
+        "r_max_px": 736.1017428642643,
+        "mean_radial_px": -0.033586241245486335,
+        "median_radial_px": -0.03864588050815365,
+        "mean_abs_tangential_px": 0.08404743177591797,
+        "points": 423
+      },
+      {
+        "bin": 3,
+        "r_min_px": 736.5344122284475,
+        "r_max_px": 900.6195061274466,
+        "mean_radial_px": 0.02391538730196891,
+        "median_radial_px": 0.03303520834056772,
+        "mean_abs_tangential_px": 0.08889244217606686,
+        "points": 423
+      },
+      {
+        "bin": 4,
+        "r_min_px": 900.7335152863633,
+        "r_max_px": 1041.8444016365117,
+        "mean_radial_px": -0.032185048209644615,
+        "median_radial_px": 0.04572999594894592,
+        "mean_abs_tangential_px": 0.11814460336917144,
+        "points": 423
+      },
+      {
+        "bin": 5,
+        "r_min_px": 1042.6214726605376,
+        "r_max_px": 1433.9939739860301,
+        "mean_radial_px": 0.03646355107681542,
+        "median_radial_px": 0.1820307219606559,
+        "mean_abs_tangential_px": 0.31298540223919624,
+        "points": 424
+      }
+    ]
+  },
+  "3X": {
+    "distortion_type_interpretation": "karisik / mustache benzeri",
+    "mean_radial_px": -0.06556893021599612,
+    "median_radial_px": -0.13804361440116938,
+    "p95_abs_radial_px": 0.4497844397165399,
+    "mean_abs_tangential_px": 0.061098810680156206,
+    "p95_abs_tangential_px": 0.1522365907542581,
+    "tangential_to_total_mean_ratio": 0.2758772894757736,
+    "radial_positive_fraction": 0.2795173800632002,
+    "radial_negative_fraction": 0.7204826199367997,
+    "radial_bin_stats": [
+      {
+        "bin": 1,
+        "r_min_px": 7.588089026922054,
+        "r_max_px": 462.4524740241182,
+        "mean_radial_px": -0.19615037799544305,
+        "median_radial_px": -0.20584535579849575,
+        "mean_abs_tangential_px": 0.05964547338924503,
+        "points": 696
+      },
+      {
+        "bin": 2,
+        "r_min_px": 462.47113260398686,
+        "r_max_px": 652.663308984879,
+        "mean_radial_px": -0.25722302669869407,
+        "median_radial_px": -0.25854749030465507,
+        "mean_abs_tangential_px": 0.04128240079901753,
+        "points": 696
+      },
+      {
+        "bin": 3,
+        "r_min_px": 653.1100997125457,
+        "r_max_px": 799.5830410395615,
+        "mean_radial_px": -0.17110826375632268,
+        "median_radial_px": -0.17719427882343308,
+        "mean_abs_tangential_px": 0.041711197279425946,
+        "points": 696
+      },
+      {
+        "bin": 4,
+        "r_min_px": 799.8130928500087,
+        "r_max_px": 926.5004529571687,
+        "mean_radial_px": -0.026025925994726383,
+        "median_radial_px": -0.022127934863298,
+        "mean_abs_tangential_px": 0.060894498790226646,
+        "points": 696
+      },
+      {
+        "bin": 5,
+        "r_min_px": 926.6749447771858,
+        "r_max_px": 1298.6434510127967,
+        "mean_radial_px": 0.3221059392424204,
+        "median_radial_px": 0.26079197082056726,
+        "mean_abs_tangential_px": 0.1019018580747702,
+        "points": 697
+      }
+    ]
+  },
+  "5X": {
+    "distortion_type_interpretation": "karisik / mustache benzeri",
+    "mean_radial_px": -0.06543978320312685,
+    "median_radial_px": -0.1406149235679297,
+    "p95_abs_radial_px": 0.5630903153662096,
+    "mean_abs_tangential_px": 0.13871353325282781,
+    "p95_abs_tangential_px": 0.36563571778376347,
+    "tangential_to_total_mean_ratio": 0.47295951656368007,
+    "radial_positive_fraction": 0.2855443188578227,
+    "radial_negative_fraction": 0.7144556811421773,
+    "radial_bin_stats": [
+      {
+        "bin": 1,
+        "r_min_px": 0.41302594409809557,
+        "r_max_px": 515.5895523779383,
+        "mean_radial_px": -0.19745210197127516,
+        "median_radial_px": -0.2119265503334594,
+        "mean_abs_tangential_px": 0.15309464607710419,
+        "points": 336
+      },
+      {
+        "bin": 2,
+        "r_min_px": 516.059970506547,
+        "r_max_px": 730.2302137333301,
+        "mean_radial_px": -0.2522949270826382,
+        "median_radial_px": -0.2450375972207406,
+        "mean_abs_tangential_px": 0.08442376213202372,
+        "points": 336
+      },
+      {
+        "bin": 3,
+        "r_min_px": 730.2816939480027,
+        "r_max_px": 901.970764019935,
+        "mean_radial_px": -0.16548791349294115,
+        "median_radial_px": -0.17197618337642767,
+        "mean_abs_tangential_px": 0.06962477172418395,
+        "points": 336
+      },
+      {
+        "bin": 4,
+        "r_min_px": 902.1779693079294,
+        "r_max_px": 1033.1368668504404,
+        "mean_radial_px": -0.05854399507045128,
+        "median_radial_px": -0.05303201444020891,
+        "mean_abs_tangential_px": 0.13124620785065255,
+        "points": 336
+      },
+      {
+        "bin": 5,
+        "r_min_px": 1033.2761596753892,
+        "r_max_px": 1418.56728015715,
+        "mean_radial_px": 0.34535741090492134,
+        "median_radial_px": 0.34774864374839315,
+        "mean_abs_tangential_px": 0.2548326857643666,
+        "points": 337
+      }
+    ]
+  }
+}

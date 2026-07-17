@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Raw image datasets
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+
+# Keep only the small public sample dataset.
+!data/sample/**/*.tiff
+
+# Generated outputs
+output/
+outputs/
+corrected_images/
+comparisons/
+visuals/
+benchmark_tmp/
+
+# Large reports / local office artifacts
+*.docx
+*.xlsx
+*.pdf
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Keep small JSON results tracked under results/
+!results/**/*.json

@@ -1,0 +1,28 @@
+{
+  "input": "Mitutoyo CF5X Lens",
+  "glob": "5X Lens v2_*.tiff",
+  "images_total": 100,
+  "images_used": 100,
+  "grid_rows": 41,
+  "grid_cols": 41,
+  "grid_points": 1681,
+  "grid_pitch_mm": 0.125,
+  "image_width_px": 2048,
+  "image_height_px": 2048,
+  "median_pitch_px": 50.0982666015625,
+  "micrometers_per_pixel": 2.4950963073061976,
+  "homography_rmse_median_px": 0.3537376397146935,
+  "distortion_residual_mean_px": 0.2932883859926544,
+  "distortion_residual_p95_px": 0.6602600851166206,
+  "distortion_residual_max_px": 1.570043030470991,
+  "distortion_residual_mean_um": 0.7317827688660666,
+  "distortion_residual_p95_um": 1.6474125002361557,
+  "distortion_residual_max_um": 3.9174085676400012,
+  "repeatability_rms_px": 0.04263222479308637,
+  "repeatability_p95_px": 0.11274165449681493,
+  "repeatability_max_px": 0.3015861455017737,
+  "notes": [
+    "Residual, ideal planar gridin homografi ile aciklanamayan kismidir.",
+    "Tek pozlu sabit hedefte bu alan distortion + hedef/kurulum kusurlari + tespit gurultusunu icerir."
+  ]
+}
